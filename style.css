@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaf2f8;
+    text-align: center;
+}
+
+h1 {
+    color: #2d0869;
+}
+
+.container {
+    background-color: white;
+    width: 80%;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(129, 23, 103);
+}
+
+input, select {
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #176da5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0b0e63;
+}
+
+li {
+    background-color: #eaf2f8;
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+    border-radius: 5px;
+}
+
+.delete {
+    background-color: rgb(200, 10, 86);
+    margin-left: 10px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+        padding: 10px;
+    }
+}
